@@ -12,6 +12,8 @@ In this tutorial we learn how to
 First, we are going to get ready to start using bootstrap. Create a folder named BootstrapTutorial with an index.html file, also to help with styling, we are going to need a style.css file.
 
 Let’s start first with the index.html file where we are going to add the following BootstrapCDN:
+
+```HTML
 <!doctype html>
 <html lang="en">
   <head>
@@ -33,11 +35,15 @@ Let’s start first with the index.html file where we are going to add the follo
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
+```
+
 Save and open the file, you should see this when opening the index.html file with your browser:
 
 Create a Basic Grid Layout
 Bootstrap requires you to have a grid consisting of up-to 12 columns. Remember that you need to break this down by the number of columns you want to use. For example, for a 3-column layout, each column needs to be 4 units wide. Also, your columns need to be wrapped in a row, just like in a table.
 Place the cursor in the <body> of your document, after the h1. Let’s add a row first, with some size-1 columns:
+
+```HTML
 <body>
   <h1>Welcome to this Tutorial!</h1>
 
@@ -85,7 +91,7 @@ Now, let’s explore the grid layout by adding different sizes:
   <div class="row">
     <div class="col-md-12">col-md-12</div>
   </div>
-
+```
 You should see Bootstrap working the grid layout in your browser.
 
 Task:
@@ -224,7 +230,9 @@ Task:
 Experiment customizing your website feel free to create your own style or layout.
 
 
-Use Bootstrap Components!
+## Use Bootstrap Components!
+Update your own website using bootstrap components!
+
 Menu
 Go to the bootstrap site and find the Navbar code (the menu is on the right). Copy the code and paste it into your second row. You now have a menu!  Open your html fill in a browser and look at the results.
 
@@ -240,13 +248,15 @@ Cards
 Get the code for the Card, and create a new row with one column before the footer. Save the html file, reload it in the browser and take a look.
 
 
-What Now?
+## What Now?
 Ok! So now you have a basic Website. However, there are a lot of other elements for you to try out. Start by adding descriptions to the thumbnails or buttons. Maybe extend the navigation and edit the text in the Jumbotron too?
 In addition, create more rows and play with the other content types. Try Alert, Badges, Wells, Dropdowns and Media Object. Play with different column widths to combine 2 or three items in one row.
 
 The code of this tutorial is available on github:
 https://github.com/FranciscoGutierrez/BootstrapTutorial
+
 DEMO:
+https://franciscogutierrez.github.io/BootstrapTutorial/
 
 
 
