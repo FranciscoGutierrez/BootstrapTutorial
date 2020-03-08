@@ -11,6 +11,8 @@ In this tutorial we learn how to
 ## Initial Setup
 First, we are going to get ready to start using bootstrap. Create a folder named BootstrapTutorial with an index.html file, also to help with styling, we are going to need a style.css file.
 
+<img src="img/1.png">
+
 Let’s start first with the index.html file where we are going to add the following BootstrapCDN:
 
 ```HTML
