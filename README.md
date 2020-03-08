@@ -229,20 +229,24 @@ CSS Code:
 ### Task:
 Experiment customizing your website feel free to create your own style or layout.
 
-
+<img src="img/5.png">
+<img src="img/6.png">
 ## Use Bootstrap Components!
 Update your own website using bootstrap components!
 
 ### Menu
 Go to the bootstrap site and find the Navbar code (the menu is on the right). Copy the code and paste it into your second row. You now have a menu!  Open your html fill in a browser and look at the results.
-
+<img src="img/7.png">
 ### Jumbotron
 Time to put something exciting onto the page! Find the code for the Jumbotron and paste it into row 3 (content). 
 https://getbootstrap.com/docs/4.4/components/jumbotron/
+<img src="img/8.png">
 
 ### Thumbnails
 Go to the Thumbnail content type and copy the code. Paste one block of code into each of the three columns in a new row, so you have 3 thumbnails next to each other (on large screens).
 https://getbootstrap.com/docs/4.4/content/images/#image-thumbnails
+
+<img src="img/9.png">
 
 ### Cards
 Get the code for the Card, and create a new row with one column before the footer. Save the html file, reload it in the browser and take a look.
