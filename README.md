@@ -41,6 +41,8 @@ Let’s start first with the index.html file where we are going to add the follo
 
 Save and open the file, you should see this when opening the index.html file with your browser:
 
+<img src="img/2.png">
+
 Create a Basic Grid Layout
 Bootstrap requires you to have a grid consisting of up-to 12 columns. Remember that you need to break this down by the number of columns you want to use. For example, for a 3-column layout, each column needs to be 4 units wide. Also, your columns need to be wrapped in a row, just like in a table.
 Place the cursor in the <body> of your document, after the h1. Let’s add a row first, with some size-1 columns:
@@ -96,9 +98,11 @@ Now, let’s explore the grid layout by adding different sizes:
 ```
 You should see Bootstrap working the grid layout in your browser.
 
+<img src="img/3.png">
+
 ### Task:
 Experiment with new rows with different units wide. What do you get?
-Create a responsive layout
+### Create a responsive layout
 Bootstrap can change the width of the column depending on the browser window’s size. For example, on large screens, a row has 4 columns, on small screens it has 2 columns, on extra small screens it has 1 column.
 You can target these screen sizes separately via the prefixes xs, sm, md, lg. These are then followed by a number. denoting the number of units this column should take up when the browser window is extra small, small, medium, large. 
 
@@ -129,6 +133,8 @@ Second row (Navigator): should have 3 columns.
 Third row (main content): should have one column.
 Fourth row (Website Footer): Should always be 12 units wide (one column).
 After setting up your layout, your website should look like this:
+
+<img src="img/4.png">
 
 Let’s customise the website a bit, add some customized content and CSS styling.
 Example:
