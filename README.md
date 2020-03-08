@@ -111,6 +111,7 @@ Large
 
 Example, insert two rows with different column sizes.
 
+```HTML
 <body>
   <h1>Welcome to this Tutorial!</h1>
 
@@ -124,7 +125,7 @@ Example, insert two rows with different column sizes.
     <div class="col-xs-6 col-md-4">col-xs-6 col-md-4</div>
     <div class="col-xs-6 col-md-4">col-xs-6 col-md-4</div>
   </div>
-
+```
 
 For more options and information regarding layouts, check out the bootstrap documentation:
 https://getbootstrap.com/docs/3.3/css/#grid
@@ -139,7 +140,7 @@ After setting up your layout, your website should look like this:
 Let’s customise the website a bit, add some customized content and CSS styling.
 Example:
 HTML Code:
-
+```HTML
 <!doctype html>
 <html lang="en">
 <head>
@@ -181,9 +182,9 @@ HTML Code:
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
-
+```
 CSS Code:
-
+```css
 .header h1 {
   font-size: 24px;
   font-family: pacifico, sans-serif;
@@ -225,7 +226,7 @@ CSS Code:
 .footer span {
   font-weight: bold;
 }
-
+```
 Task:
 Experiment customizing your website feel free to create your own style or layout.
 
