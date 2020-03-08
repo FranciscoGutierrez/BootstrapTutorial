@@ -94,20 +94,11 @@ Now, let’s explore the grid layout by adding different sizes:
 ```
 You should see Bootstrap working the grid layout in your browser.
 
-Task:
+### Task:
 Experiment with new rows with different units wide. What do you get?
 Create a responsive layout
 Bootstrap can change the width of the column depending on the browser window’s size. For example, on large screens, a row has 4 columns, on small screens it has 2 columns, on extra small screens it has 1 column.
-You can target these screen sizes separately via the prefixes xs, sm, md, lg. These are then followed by a number. denoting the number of units this column should take up when the browser window is extra small, small, medium, large. Example:
- 
-Extra small
-Small
-Medium
-Large
-.col-xs-*
-.col-sm-*
-.col-md-*
-.col-lg-*
+You can target these screen sizes separately via the prefixes xs, sm, md, lg. These are then followed by a number. denoting the number of units this column should take up when the browser window is extra small, small, medium, large. 
 
 Example, insert two rows with different column sizes.
 
@@ -227,25 +218,25 @@ CSS Code:
   font-weight: bold;
 }
 ```
-Task:
+### Task:
 Experiment customizing your website feel free to create your own style or layout.
 
 
 ## Use Bootstrap Components!
 Update your own website using bootstrap components!
 
-Menu
+### Menu
 Go to the bootstrap site and find the Navbar code (the menu is on the right). Copy the code and paste it into your second row. You now have a menu!  Open your html fill in a browser and look at the results.
 
-Jumbotron
+### Jumbotron
 Time to put something exciting onto the page! Find the code for the Jumbotron and paste it into row 3 (content). 
 https://getbootstrap.com/docs/4.4/components/jumbotron/
 
-Thumbnails
+### Thumbnails
 Go to the Thumbnail content type and copy the code. Paste one block of code into each of the three columns in a new row, so you have 3 thumbnails next to each other (on large screens).
 https://getbootstrap.com/docs/4.4/content/images/#image-thumbnails
 
-Cards
+### Cards
 Get the code for the Card, and create a new row with one column before the footer. Save the html file, reload it in the browser and take a look.
 
 
@@ -256,7 +247,7 @@ In addition, create more rows and play with the other content types. Try Alert, 
 The code of this tutorial is available on github:
 https://github.com/FranciscoGutierrez/BootstrapTutorial
 
-DEMO:
+Demo:
 https://franciscogutierrez.github.io/BootstrapTutorial/
 
 
