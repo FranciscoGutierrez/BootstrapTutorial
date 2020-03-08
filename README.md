@@ -41,7 +41,7 @@ Let’s start first with the index.html file where we are going to add the follo
 
 Save and open the file, you should see this when opening the index.html file with your browser:
 
-<img src="img/2.png">
+<img src="img/3.png">
 
 Create a Basic Grid Layout
 Bootstrap requires you to have a grid consisting of up-to 12 columns. Remember that you need to break this down by the number of columns you want to use. For example, for a 3-column layout, each column needs to be 4 units wide. Also, your columns need to be wrapped in a row, just like in a table.
@@ -98,7 +98,7 @@ Now, let’s explore the grid layout by adding different sizes:
 ```
 You should see Bootstrap working the grid layout in your browser.
 
-<img src="img/3.png">
+<img src="img/4.png">
 
 ### Task:
 Experiment with new rows with different units wide. What do you get?
@@ -134,7 +134,7 @@ Third row (main content): should have one column.
 Fourth row (Website Footer): Should always be 12 units wide (one column).
 After setting up your layout, your website should look like this:
 
-<img src="img/4.png">
+<img src="img/5.png">
 
 Let’s customise the website a bit, add some customized content and CSS styling.
 Example:
@@ -229,24 +229,24 @@ CSS Code:
 ### Task:
 Experiment customizing your website feel free to create your own style or layout.
 
-<img src="img/5.png">
 <img src="img/6.png">
+<img src="img/7.png">
 ## Use Bootstrap Components!
 Update your own website using bootstrap components!
 
 ### Menu
 Go to the bootstrap site and find the Navbar code (the menu is on the right). Copy the code and paste it into your second row. You now have a menu!  Open your html fill in a browser and look at the results.
-<img src="img/7.png">
+<img src="img/8.png">
 ### Jumbotron
 Time to put something exciting onto the page! Find the code for the Jumbotron and paste it into row 3 (content). 
 https://getbootstrap.com/docs/4.4/components/jumbotron/
-<img src="img/8.png">
+<img src="img/9.png">
 
 ### Thumbnails
 Go to the Thumbnail content type and copy the code. Paste one block of code into each of the three columns in a new row, so you have 3 thumbnails next to each other (on large screens).
 https://getbootstrap.com/docs/4.4/content/images/#image-thumbnails
 
-<img src="img/9.png">
+<img src="img/10.png">
 
 ### Cards
 Get the code for the Card, and create a new row with one column before the footer. Save the html file, reload it in the browser and take a look.
