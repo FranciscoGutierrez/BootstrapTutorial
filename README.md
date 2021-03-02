@@ -113,14 +113,14 @@ Example, insert two rows with different column sizes.
   <h1>Welcome to this Tutorial!</h1>
 
   <div class="row">
-    <div class="col-xs-12 col-md-8">col-xs-12 col-md-8</div>
-    <div class="col-xs-6 col-md-4">col-xs-6 col-md-4</div>
+    <div class="col-sm-12 col-md-8">col-sm-12 col-md-8</div>
+    <div class="col-sm-6 col-md-4">col-sm-6 col-md-4</div>
   </div>
 
   <div class="row">
-    <div class="col-xs-6 col-md-4">col-xs-6 col-md-4</div>
-    <div class="col-xs-6 col-md-4">col-xs-6 col-md-4</div>
-    <div class="col-xs-6 col-md-4">col-xs-6 col-md-4</div>
+    <div class="col-sm-6 col-md-4">col-sm-6 col-md-4</div>
+    <div class="col-sm-6 col-md-4">col-sm-6 col-md-4</div>
+    <div class="col-sm-6 col-md-4">col-sm-6 col-md-4</div>
   </div>
 ```
 
@@ -153,23 +153,23 @@ HTML Code:
 </head>
 <body>
   <div class="row">
-    <div class="header col-xs-12 col-md-8">
+    <div class="header col-sm-12 col-md-8">
       <h1>My Bootstrap Website</h1>
     </div>
   </div>
 
   <div class="row navigation">
-    <div class="nav col-xs-6 col-md-4">About Me</div>
-    <div class="nav col-xs-6 col-md-4">My Portfolio</div>
-    <div class="nav col-xs-6 col-md-4">Contact</div>
+    <div class="nav col-sm-6 col-md-4">About Me</div>
+    <div class="nav col-sm-6 col-md-4">My Portfolio</div>
+    <div class="nav col-sm-6 col-md-4">Contact</div>
   </div>
 
   <div class="row content">
-    <div class="col-xs-12 col-md-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et iaculis nunc. Suspendisse dictum fringilla dignissim. Pellentesque id sagittis dolor. Nulla accumsan ex quis varius scelerisque. In in justo sagittis odio euismod feugiat. In ultrices ullamcorper neque in feugiat. Etiam semper quam a nulla ultrices molestie. Sed leo orci, maximus ut laoreet ut, efficitur vel mauris.</div>
+    <div class="col-sm-12 col-md-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et iaculis nunc. Suspendisse dictum fringilla dignissim. Pellentesque id sagittis dolor. Nulla accumsan ex quis varius scelerisque. In in justo sagittis odio euismod feugiat. In ultrices ullamcorper neque in feugiat. Etiam semper quam a nulla ultrices molestie. Sed leo orci, maximus ut laoreet ut, efficitur vel mauris.</div>
   </div>
 
   <div class="row footer">
-    <div class="col-xs-12 col-md-8">Designed and built using just <span>CSS</span> and <span>Bootstrap!</span></div>
+    <div class="col-sm-12 col-md-8">Designed and built using just <span>CSS</span> and <span>Bootstrap!</span></div>
   </div>
 
 
